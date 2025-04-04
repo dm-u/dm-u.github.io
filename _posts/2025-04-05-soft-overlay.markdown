@@ -19,11 +19,11 @@ Let's just look at how the usual dodge & burn tools work and check how close the
 
 ## Overlay
 
-<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Overlay.jpg" alt="IMG_3549_+1EV_Overlay" width="400"/>
+<img src="../_posts/IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Overlay.jpg" alt="IMG_3549_+1EV_Overlay" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Overlay. Noticeable shifts in hue and saturation are visible.
 
-<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Overlay.jpg" alt="IMG_3549_-1EV_Overlay" width="400"/>
+<img src="../_posts/IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Overlay.jpg" alt="IMG_3549_-1EV_Overlay" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Overlay. We won't do this anymore.
 
@@ -31,11 +31,11 @@ On the left—conversion with -1EV exposure. On the right—conversion with corr
 
 Soft Light acts more carefully and is the "default" choice.
 
-<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Light.jpg" alt="IMG_3549_+1EV_Soft_Light" width="400"/>
+<img src="../_posts/IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Light.jpg" alt="IMG_3549_+1EV_Soft_Light" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Soft Light. Significant loss of saturation, contrast, and detail in highlights is visible.
 
-<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Light.jpg" alt="IMG_3549_-1EV_Soft_Light" width="400"/>
+<img src="../_posts/IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Light.jpg" alt="IMG_3549_-1EV_Soft_Light" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Soft Light. Strong increases in contrast and saturation are visible. This might be a plus in some cases, but our goal is to simulate exposure.
 
@@ -45,11 +45,11 @@ So, neither Overlay nor Soft Light gives us what we need—natural changes in br
 
 But look at the following examples:
 
-<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Overlay.jpg" alt="IMG_3549_+1EV_Soft_Overlay" width="400"/>
+<img src="../_posts/IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Overlay.jpg" alt="IMG_3549_+1EV_Soft_Overlay" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Soft Overlay. A worthy result.
 
-<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Overlay.jpg" alt="IMG_3549_-1EV_Soft_Overlay" width="400"/>
+<img src="../_posts/IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Overlay.jpg" alt="IMG_3549_-1EV_Soft_Overlay" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Soft Overlay. These are indeed two different images; I checked.
 
@@ -65,7 +65,7 @@ Adobe, thank you for the most useless Invert adjustment layer! Who would have th
 
 You should end up with a layer structure like this:
 
-<img src="layers.png" alt="Layers" width="200"/>
+<img src="../_posts/layers.png" alt="Layers" width="200"/>
 
 Let's list the advantages of Soft Overlay and explain why it works this way.
 
@@ -78,7 +78,7 @@ Let's list the advantages of Soft Overlay and explain why it works this way.
 
 Why does this work? We won't delve into technical aspects and will limit ourselves to the following image:
 
-<img src="curves.png" alt="Blending Modes" width="400"/>
+<img src="../_posts/curves.png" alt="Blending Modes" width="400"/>
 
 The Soft Overlay mode is something between Soft Light and Overlay. From Soft Light, it took softness. From Overlay—careful treatment of shadows. And on its own, it added adequate correction of highlights.
 
