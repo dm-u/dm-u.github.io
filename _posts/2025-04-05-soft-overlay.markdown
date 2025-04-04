@@ -19,13 +19,11 @@ Let's just look at how the usual dodge & burn tools work and check how close the
 
 ## Overlay
 
-<img src="https://github.com/user-attachments/assets/17984299-991a-42c5-ac52-9d2ec82d3d0b" alt="IMG_3549" width="400"/>
-<img src="https://github.com/user-attachments/assets/fc8585be-3f35-4698-8385-ae79e20e2509" alt="IMG_3549_+1EV_Overlay" width="400"/>
+<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Overlay.jpg" alt="IMG_3549_+1EV_Overlay" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Overlay. Noticeable shifts in hue and saturation are visible.
 
-<img src="https://github.com/user-attachments/assets/cde850a0-f979-48b8-bf36-f5ca819f1e9d" alt="IMG_3549_-1EV" width="400"/>
-<img src="https://github.com/user-attachments/assets/0c0a70a0-3983-42aa-8045-7f356ea36a2b" alt="IMG_3549_-1EV_Overlay" width="400"/>
+<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Overlay.jpg" alt="IMG_3549_-1EV_Overlay" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Overlay. We won't do this anymore.
 
@@ -33,13 +31,11 @@ On the left—conversion with -1EV exposure. On the right—conversion with corr
 
 Soft Light acts more carefully and is the "default" choice.
 
-<img src="https://github.com/user-attachments/assets/17984299-991a-42c5-ac52-9d2ec82d3d0b" alt="IMG_3549" width="400"/>
-<img src="https://github.com/user-attachments/assets/dbaba319-7615-476e-8c04-da59c211d3bc" alt="IMG_3549_+1EV_Soft_Light" width="400"/>
+<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Light.jpg" alt="IMG_3549_+1EV_Soft_Light" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Soft Light. Significant loss of saturation, contrast, and detail in highlights is visible.
 
-<img src="https://github.com/user-attachments/assets/cde850a0-f979-48b8-bf36-f5ca819f1e9d" alt="IMG_3549_-1EV" width="400"/>
-<img src="https://github.com/user-attachments/assets/56064984-0509-45ea-91ae-75a055480d55" alt="IMG_3549_-1EV_Soft_Light" width="400"/>
+<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Light.jpg" alt="IMG_3549_-1EV_Soft_Light" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Soft Light. Strong increases in contrast and saturation are visible. This might be a plus in some cases, but our goal is to simulate exposure.
 
@@ -49,13 +45,11 @@ So, neither Overlay nor Soft Light gives us what we need—natural changes in br
 
 But look at the following examples:
 
-<img src="https://github.com/user-attachments/assets/17984299-991a-42c5-ac52-9d2ec82d3d0b" alt="IMG_3549" width="400"/>
-<img src="https://github.com/user-attachments/assets/d36c35af-32a1-4d7c-af43-a681f7415b57" alt="IMG_3549_+1EV_Soft_Overlay" width="400"/>
+<img src="IMG_3549.jpg" alt="IMG_3549" width="400"/> <img src="IMG_3549_+1EV_Soft_Overlay.jpg" alt="IMG_3549_+1EV_Soft_Overlay" width="400"/>
 
 On the left—conversion with correct exposure, on the right—conversion with -1EV exposure and lightening in Photoshop using Soft Overlay. A worthy result.
 
-<img src="https://github.com/user-attachments/assets/cde850a0-f979-48b8-bf36-f5ca819f1e9d" alt="IMG_3549_-1EV" width="400"/>
-<img src="https://github.com/user-attachments/assets/87dcc566-c63a-495e-87f1-0de18149334c" alt="IMG_3549_-1EV_Soft_Overlay" width="400"/>
+<img src="IMG_3549_-1EV.jpg" alt="IMG_3549_-1EV" width="400"/> <img src="IMG_3549_-1EV_Soft_Overlay.jpg" alt="IMG_3549_-1EV_Soft_Overlay" width="400"/>
 
 On the left—conversion with -1EV exposure. On the right—conversion with correct exposure and darkening in Photoshop using Soft Overlay. These are indeed two different images; I checked.
 
@@ -71,9 +65,7 @@ Adobe, thank you for the most useless Invert adjustment layer! Who would have th
 
 You should end up with a layer structure like this:
 
-<img src="https://github.com/user-attachments/assets/cfe40f8f-c172-450a-a219-7fbe35cca25d" alt="Layers" width="200"/>
-
-<!-- ![Screenshot 2025-04-05 010603](https://github.com/user-attachments/assets/cfe40f8f-c172-450a-a219-7fbe35cca25d) -->
+<img src="layers.png" alt="Layers" width="200"/>
 
 Let's list the advantages of Soft Overlay and explain why it works this way.
 
@@ -86,25 +78,11 @@ Let's list the advantages of Soft Overlay and explain why it works this way.
 
 Why does this work? We won't delve into technical aspects and will limit ourselves to the following image:
 
-<img src="https://github.com/user-attachments/assets/48de0952-e609-478f-882b-acd7d9dd72bb" alt="Blending Modes" width="400"/>
-
-<!-- ![Screenshot 2025-04-05 011002](https://github.com/user-attachments/assets/48de0952-e609-478f-882b-acd7d9dd72bb) -->
-
+<img src="curves.png" alt="Blending Modes" width="400"/>
 
 The Soft Overlay mode is something between Soft Light and Overlay. From Soft Light, it took softness. From Overlay—careful treatment of shadows. And on its own, it added adequate correction of highlights.
 
 In more technical terms, Soft Overlay is a combination of Color Dodge and Multiply with a fixed white point.
 
 There is one disadvantage. The effect might not be strong enough. But in this case, you can create another raster layer with an inverting layer.
-
-<!--
-![IMG_3549](https://github.com/user-attachments/assets/17984299-991a-42c5-ac52-9d2ec82d3d0b)
-![IMG_3549_-1EV_Soft_Light](https://github.com/user-attachments/assets/56064984-0509-45ea-91ae-75a055480d55)
-![IMG_3549_-1EV](https://github.com/user-attachments/assets/cde850a0-f979-48b8-bf36-f5ca819f1e9d)
-![IMG_3549_+1EV_Soft_Light](https://github.com/user-attachments/assets/dbaba319-7615-476e-8c04-da59c211d3bc)
-![IMG_3549_-1EV_Overlay](https://github.com/user-attachments/assets/0c0a70a0-3983-42aa-8045-7f356ea36a2b)
-![IMG_3549_+1EV_Soft_Overlay](https://github.com/user-attachments/assets/d36c35af-32a1-4d7c-af43-a681f7415b57)
-![IMG_3549_+1EV_Overlay](https://github.com/user-attachments/assets/fc8585be-3f35-4698-8385-ae79e20e2509)
-![IMG_3549_-1EV_Soft_Overlay](https://github.com/user-attachments/assets/87dcc566-c63a-495e-87f1-0de18149334c)
--->
 
