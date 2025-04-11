@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Soft Overlay: Soft Light на светлой стороне"
+title:  "Soft Overlay: лучшая замена для Soft Light и Overlay"
 date:   2025-04-05 00:00:00 +0300
 categories: photoshop
 ---
 
-## The Best Blend Mode for Dodge & Burn
+# Лучший режим наложения для Dodge & Burn
 
 Похоже, я нашёл лучший режим наложения для dodge&burn. И это не Soft Light и не Overlay.
 

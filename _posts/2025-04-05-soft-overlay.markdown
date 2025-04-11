@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Soft Overlay: Soft Light on the Light Side"
+title:  "Soft Overlay: A Better Replacement for Soft Light and Overlay"
 date:   2025-04-05 00:00:00 +0300
 categories: photoshop
 ---
 
-## The Best Blend Mode for Dodge & Burn
+# The Best Blend Mode for Dodge & Burn
 
 It seems I've found the best blend mode for dodge & burn. And it's neither Soft Light nor Overlay.
 
@@ -75,7 +75,7 @@ You should end up with a layer structure like this:
 
 Let's list the advantages of Soft Overlay and explain why it works this way.
 
-## Advantages:
+Advantages:
 - One raster layer. No masks.
 - Preservation of the black point.
 - Preservation of the white point.
